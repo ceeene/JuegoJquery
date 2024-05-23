@@ -28,7 +28,7 @@ body{
   opacity:1.0;
 }
 .borderMe{
-    border: 2.0px solid orange;
+    border: 2.0px solid lightblue;
     padding-right: 0px;
 }
 .borderMe2{
@@ -50,13 +50,13 @@ body{
 .main-titulo{
   font-family: gameFont;
   font-size: 3em;
-  color: #DCFF0E;
+  color: pink;
   width: 100%;
 }
 
 .panel-tablero{
   width: 70%;
-  border: 10px solid #E87306;
+  border: 10px solid white;
   background: rgba(230, 227, 225, 0.5);
   border-radius: 5px;
   height: 2100px;
@@ -78,9 +78,9 @@ body{
   text-align: center;
   height: 23%;
   width: 100%;
-  border: 10px solid #E87306;
+  border: 10px solid white;
   border-radius: 5px;
-  background: rgba(232, 115, 6, 0.5);
+  background: lightskyblue;
 }
 
 
@@ -93,7 +93,7 @@ body{
 
 .data-titulo, .data-info{
   font-family: gameFont;
-  color: #E8CA06;
+  color: white;
 }
 .titulo-over{
   font-family: gameFont;
@@ -102,12 +102,12 @@ body{
   color: #DCFF0E;
 }
 .btn-reinicio{
-  background: #E8CA06;
-  border: 6px solid #FFB206;
+  background: lightskyblue;
+  border: 6px solid white;
   border-radius: 5px;
   font-family: gameFont;
   font-size: 1.2em;
-  color: #FF4007;
+  color: white;
 }
 .btn-reinicio:hover{
   color: #fff;
@@ -125,7 +125,7 @@ div[class^='col']{
   flex-flow: column wrap;
   justify-content: flex-end;
   align-items: center;
-
+  
 
 }
 
