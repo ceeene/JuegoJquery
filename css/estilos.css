@@ -6,25 +6,33 @@
   box-sizing: border-box;*/
 }
 
+/* Estilos base */
+/* Aquí van tus estilos base para pantallas más grandes */
+
 /* Estilos para dispositivos móviles */
 @media only screen and (max-width: 600px) {
   .main-container {
     width: 100%;
   }
-  
+
   .panel-tablero {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px; /* Ajusta el espaciado entre los elementos si es necesario */
+  }
+
+  .panel-score {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7 {
-    width: 25%;
+    width: 100%;
   }
 
-  /* Aquí puedes añadir más estilos específicos para dispositivos móviles */
+  /* Aquí puedes agregar más ajustes necesarios para dispositivos móviles */
 }
-
-/* Otros estilos generales */
 
 
 body{
